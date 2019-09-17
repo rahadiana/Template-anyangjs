@@ -64,31 +64,5 @@
   <script type="text/javascript" src="plugins/google-map/gmap.js"></script>
   <!-- Custom Script -->
   <script src="js/custom.js"></script>
-
-  <script src="//pdss.bekasikota.go.id/assets/anyang/annyang.min.js"></script>
-    <script>
-      window.onload = function(){
-          if (annyang) {
-              var commands = {
-                  ////MENU PETA
-      			'peta pendidikan': function() {
-                     window.location = "//pdss2.nusantaracode.com/peta/pendidikan";
-                  },
-                  
-                  'peta faskes': function() {
-                     window.location = "//pdss2.nusantaracode.com/peta/faskes";
-                  },
-                  
-                  ///////////
-                  'update': function() {
-                     window.location = "";
-                  }
-      			
-              };
-              annyang.addCommands(commands);
-              annyang.start(); 
-          }
-      }
-    </script>
 </body>
 </html>
